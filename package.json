@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap-libs/uikit",
-  "version": "0.14.1",
-  "description": "Set of UI components for pancake projects",
+  "name": "@giacomogaglione/tempura-kit",
+  "version": "0.14.3",
+  "description": "Set of UI components for tempura projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-uikit",
+  "repository": "https://github.com/giacomogaglione/tempura-kit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
